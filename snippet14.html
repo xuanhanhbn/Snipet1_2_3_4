@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/angular/angular.min.js"></script>
+    <title>Document</title>
+</head>
+<body ng-app = "">
+    <p>Do you want to hide the list of cities?</p>
+    <input type="checkbox" ng-model = "myVar">
+    <ul ng-hide = "myVar">
+        <li>Nairobi</li>
+        <li>London</li>
+    </ul>
+</body>
+</html>
